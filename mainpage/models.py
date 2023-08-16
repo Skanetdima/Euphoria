@@ -7,10 +7,13 @@ class UserAccount(models.Model):
     password = models.CharField(max_length=50, help_text=" ")
     def __str__(self):
         """String for representing the Model Object."""
-        return self.name
+        return f'{self.email} {self.password}'
 
 class Clothes(models.Model):
     """Model representing clothes and price on it"""
-    cloth_amount = models.IntegerField(max_digits=30)
-    cloth_name = models.CharField(max_length=40)
-
+    clothes_amount = models.IntegerField(blank=True, null=True)
+    clothes_name = models.CharField(max_length=40)
+    clothes_price = models.IntegerField(blank=True, null=True)
+    def __str__(self):
+        """String for representing the Model Object."""
+        return f'{self.clothes_amount} {self.clothes_name}'
