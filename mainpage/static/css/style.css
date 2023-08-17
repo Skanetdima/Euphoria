@@ -1,0 +1,36 @@
+/* FONTS */
+@font-face {
+    font-family: 'Causten';
+    src: url('Fonts/Causten-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* NAV CONTAINER */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_user_container img{
+    padding: 12px;
+    border-radius: 8px;
+    background: #F6F6F6;
+}
+.nav_link_container{
+    display: flex; 
+    gap: 40px;
+}
+.nav_link_container a{
+    text-decoration: none;
+    color: #807D7E;
+    font-family: Causten;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s;
+}
+.nav_link_container a:hover{
+    color: #3C4242;
+}

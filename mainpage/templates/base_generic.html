@@ -12,6 +12,28 @@
     <body>
         {% block sidebar%}
         <nav> 
+            <div class="logo_container">
+                {% load static %}
+                <img src="{% static 'assets/Logo.svg' %}" alt="">
+            </div>
+            <div class="nav_link_container">
+                <a href="#">Shop</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Combos</a>
+                <a href="#">Joggers</a>
+            </div>
+            <form action="" method="post">
+                <input type="search" name="search" id="search_nav_button" placeholder=" ">
+            </form>
+            <div class="nav_user_container">
+                {% load static %}
+                <a href="#"><img src="{% static 'assets/nav_heart.svg'%}" alt=""></a>
+                {% load static %} 
+                <a href="#"><img src="{% static 'assets/nav_user.svg' %}" alt=""></a>
+                {% load static %}
+                <a href="#"><img src="{% static 'assets/nav_shopping_cart.svg'%}" alt=""></a>
+            </div>
         </nav>
         {% endblock %}
         {% block content %}
