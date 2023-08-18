@@ -23,8 +23,10 @@
                 <a href="#">Combos</a>
                 <a href="#">Joggers</a>
             </div>
-            <form action="" method="post">
-                <input type="search" name="search" id="search_nav_button" placeholder=" ">
+            <form action="" id="search_nav_button"method="post">
+                {% load static %}
+                <img src="{% static 'assets/nav_search.svg'%}" alt="">
+                <input type="search" class="nav_input"name="search" placeholder="Search">
             </form>
             <div class="nav_user_container">
                 {% load static %}

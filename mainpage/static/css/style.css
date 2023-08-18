@@ -34,3 +34,28 @@ nav{
 .nav_link_container a:hover{
     color: #3C4242;
 }
+.nav_input{
+    margin-top: 3px;
+    border: none;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    color: #807D7E;
+    text-align: left;
+    font-family: Causten;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+#search_nav_button{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    padding: 12px 20px;
+    color: #807D7E;
+    border: none;
+    border-radius: 8px;
+    background: #F6F6F6;
+}
