@@ -1,5 +1,22 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <h1>Just a few words for testing</h1>
+    <main>
+        <div class="first_container">
+            <div class="first_text_container">
+                <p class="first_container_heading">T-shirt / Tops</p>
+                <h1 class="first_container_h1">Summer<br> Value Pack</h1>
+                <p class="first_slogan_container">cool / colorful / comfy</p>
+                <a href="#">Shop Now</a>
+            </div>    
+            <div class="first_corousel_container">
+                <span class="first_corousel_left_bar"></span>
+                <span class="first_corousel_right_bar"></span>
+            </div>
+                {% load static %}
+                <img class="first_arrow_right"src="{% static 'assets/navChevronRight.svg'%}" alt="">
+                {% load static %}
+                <img class="first_arrow_left" src="{% static 'assets/navChevronLeft.svg'%}" alt="">
+        </div>
+    </main>
 {% endblock%}

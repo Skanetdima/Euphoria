@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* FONTS */
 @font-face {
     font-family: 'Causten';
@@ -5,11 +9,20 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Core Sans C';
+    src: local('Core Sans C 65 Bold'), local('Core-Sans-C-65-Bold'),
+        url('Fonts/CoreSansC-65Bold.woff2') format('woff2'),
+        url('Fonts/CoreSansC-65Bold.woff') format('woff'),
+        url('Fonts/CoreSansC-65Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* NAV CONTAINER */
 nav{
     display: flex;
     justify-content: space-evenly;
+    height: 75px;
     align-items: center;
 }
 .nav_user_container img{
@@ -58,4 +71,96 @@ nav{
     border: none;
     border-radius: 8px;
     background: #F6F6F6;
+}
+/* FIRST CONTAINER */
+.first_container{
+    width: 100%;
+    background: url('/static/assets/first_container_bg.jpeg')    
+}
+.first_container_heading{
+    color: #FFF;
+    font-family: 'Core Sans C';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.771px; /* 118.035% */
+    letter-spacing: 0.157px;
+    text-transform: capitalize;
+}
+.first_text_container{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.first_container_h1{
+    color: #FFF;
+    font-family: Core Sans C;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 93.622px; /* 120.028% */
+    letter-spacing: 0.315px;
+}
+.first_slogan_container{
+    color: #FFF;
+    font-family: Core Sans C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 3%;
+    line-height: 47.214px; /* 147.544% */
+    letter-spacing: 0.315px;
+}
+.first_text_container a{
+    padding: 16px 72px;
+    text-decoration: none;
+    font-family: Causten;
+    color: #3C4242;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+}
+.first_corousel_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 126px;
+    height: 10px;
+    margin-top: 10%;
+    padding-bottom: 3.5%;
+    gap: 1px;
+
+}
+.first_corousel_container span{
+    opacity: 0.5;
+    display: flex;
+    width: 63px;
+    background-color: #fff;
+    height: 10px;
+    border-radius: 0 20px 20px 0;
+    transition: 0.2s;
+}
+.first_corousel_container span:first-child {
+    opacity: 1;
+    border-radius: 20px 0 0 20px;
+}
+.closed_bar{
+    opacity: 0.5 !important;
+}
+.active_bar{
+    opacity: 1 !important;
+}
+.first_arrow_right {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    right: 1.5%;
+}
+.first_arrow_left{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 1.5%;
 }
