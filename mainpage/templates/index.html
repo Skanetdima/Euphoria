@@ -32,5 +32,35 @@
                 <a href="#">Explore items</a>
             </div>
         </div>
+        <div class="third_container">
+            {% load static %}
+            <img class="third_h2_img" src="{% static 'assets/third_h2_img.png'%}" alt="">
+            <h2>New Arrival</h2>
+            <div class="third_container_items">
+                <div class="third_container_item">
+                    {% load static %}
+                    <img src="{% static 'assets/third_photographer-white-background.png' %}" alt="">
+                    <p>Knitted Joggers</p>
+                </div>
+                <div class="third_container_item">
+                    {% load static %}
+                    <img src="{% static 'assets/third_red_guy.png'%}" alt="">
+                    <p>Full Sleeve</p>
+                </div>
+                <div class="third_container_item">
+                    {% load static %}
+                    <img src="{% static 'assets/third_black_tshirt_guy.png'%}" alt="">
+                    <p>Active T-Shirts</p>
+                </div>
+                <div class="third_container_item">
+                    {% load static %}
+                    <img src="{% static 'assets/third_white_bg_guy.png'%}" alt="">
+                    <p>Urban Shirts</p>
+                </div>
+            </div>
+            {% load static %}
+            <img class="third_arrow_left" src="{% static 'assets/third_arrow_left.svg' %}" alt="">
+            <img class="third_arrow_right" src="{% static 'assets/third_arrow_right.svg'%}" alt="">
+        </div>
     </main>
 {% endblock%}
