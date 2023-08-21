@@ -294,3 +294,294 @@ nav{
     width: 13.586px;
     height: 12px;
 }
+/* FOURTH CONTAINER */
+.fourth_header_img{
+    height: 30px;
+    top: 256.4%;
+}
+.fourth_h3_header{
+    margin-left: 7%;
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px; /* 98.529% */
+    letter-spacing: 0.68px;
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+.fourth_container_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.fourth_container_items div:first-child{
+    width: 400px;
+    height: 393px;
+    background: url('/static/assets/fourth_hawaiian_shirts.png ');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.fourth_container_items div:first-child h3{
+    color: #FFF;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.431px; /* 137.255% */
+    margin-left: 5%;
+    letter-spacing: 0.56px;
+}
+.fourth_container_items div:first-child h4{
+    color: #FFF;
+    font-family: Causten;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 5%;
+    line-height: normal;
+}
+.fourth_container_items div:first-child p{
+    margin-left: 5%;
+    color: #FFF;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fourth_container_items div:first-child a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    margin-right: 5%;
+    font-family: Causten;
+    padding: 16px 8px;
+    width: 111px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fourth_container_items div:first-child img{
+    margin-left: 17.5%;
+}
+.fourth_container_items div:nth-child(2){
+    width: 400px;
+    height: 393px;
+    background: url('/static/assets/fourth_printed_tshirts.png');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.fourth_shop_btn{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Causten;
+    padding: 16px 8px;
+    width: 111px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 5%;
+    text-transform: uppercase;
+}
+.fourth_limeted_stock{
+    width: 104px;
+    padding: 16px 8px;
+    border-radius: 4px;
+    background: #3C4242;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Causten;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 5%;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(2) h3{
+    color: #FFF;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.431px; /* 137.255% */
+    letter-spacing: 0.56px;
+    margin-right: 5%;
+}
+.fourth_container_items div:nth-child(2) h4{
+    color: #FFF;
+    font-family: Causten;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 5%;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(2) p{
+    color: #FFF;
+    font-family: Causten;
+    font-size: 18px;
+    margin-right: 5%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(2) img{
+    margin-right: 17.5%;
+}
+.fourth_container_items div:nth-child(3){
+    width: 400px;
+    height: 393px;
+    background: url('/static/assets/fourth_cargo_joggers.png');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.fourth_container_items div:nth-child(3) h3{
+    margin-right: 5%;
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.431px; /* 137.255% */
+    letter-spacing: 0.56px;
+}
+.fourth_container_items div:nth-child(3) h4{
+    margin-right: 5%;
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(3) p{
+    color: #3C4242;
+    font-family: Causten;
+    margin-right: 5%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(3) a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    color: #3C4242;
+    margin-right: 5%;
+    font-family: Causten;
+    padding: 16px 8px;
+    width: 111px;
+    border-radius: 4px;
+    border: 1px solid #3C4242;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fourth_container_items div:nth-child(3) img{
+    margin-right: 18.5%;
+}
+.fourth_container_items div:nth-child(4){
+    width: 610px;
+    height: 393px;
+    margin-right: 2.3%; 
+    background: url('/static/assets/fourth_urban_shirts.png');
+}
+.fourth_container_items div:nth-child(5){
+    width: 610px;
+    margin-left: 2.3%;
+    height: 393px;
+    background: url('/static/assets/fourth_oversized_tshirts.png');
+}
+.fourth_container_items div:nth-child(4),
+.fourth_container_items div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.fourth_container_items div:nth-child(5) h3,
+.fourth_container_items div:nth-child(4) h3{
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43.922px; /* 137.255% */
+    letter-spacing: 0.64px;
+    margin-right: 12%;
+}
+.fourth_container_items div:nth-child(5) h4,
+.fourth_container_items div:nth-child(4) h4{
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 20%;
+}
+.fourth_container_items div:nth-child(5) p,
+.fourth_container_items div:nth-child(4) p{
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 20px;
+    font-style: normal;
+    margin-right: 16%;
+    font-weight: 700;
+    line-height: normal;
+}
+.fourth_container_items div:nth-child(4) img,
+.fourth_container_items div:nth-child(5) img{
+    margin-right: 25%;
+}
+.fourth_container_items div:nth-child(4) h3{
+    margin-right: 21%;
+}
+.fourth_container_items div:nth-child(5) p{
+    margin-right: 17%;
+}
+.fourth_container_items div:nth-child(4) a,
+.fourth_container_items div:nth-child(5) a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3C4242;
+    text-align: center;
+    font-family: Causten;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 16px 8px;
+    border-radius: 4px;
+    border: 2px solid #3C4242;
+    margin-right: 14%;
+    width: 132px; 
+}
