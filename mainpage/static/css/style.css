@@ -665,8 +665,8 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 4%;
     padding-top: 5%; 
+    padding-left: 2%;
 }
 .sixth_container_items{
     display: flex;
@@ -679,7 +679,7 @@ nav{
 .sixth_container_header{
     display: flex;
     flex-direction: row;
-    margin-right: 56%;
+    margin-right: 55%;
     align-items: center;
     width: 390px;
     justify-content: space-between;
@@ -692,4 +692,86 @@ nav{
     font-weight: 600;
     line-height: 33.5px; /* 98.529% */
     letter-spacing: 0.68px;
+}
+.sixth_container_item div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sixth_container_item a{
+    color: #7F7F7F;
+    text-decoration: none;
+    font-family: Causten;
+    font-size: 13.407px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.93px; /* 208.333% */
+    letter-spacing: -0.536px;
+}
+.sixth_container_item p{
+    color: #2A2F2F;
+    font-family: Causten;
+    font-size: 17.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.93px; /* 156.25% */
+    letter-spacing: -0.715px;
+}
+/* SEVENTH CONTAINER */
+.seventh_container_header h3{
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.68px;
+}
+.seventh_container_header{    
+    display: flex;
+    width: 440px;
+    height: 32px;
+    margin: 3% 52% 3% 0;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+.seventh_container {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seventh_container_items{
+    display: flex;
+    align-items: center;
+    max-width: 1241px;
+    justify-content: space-between;
+    gap: 50px; 
+}
+.seventh_container_item div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.seventh_container_item p{
+    color: #2A2F2F;
+    font-family: Causten;
+    font-size: 17.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.93px; /* 156.25% */
+    letter-spacing: -0.715px;
+}
+.seventh_container_item a{
+    text-decoration: none;
+    color: #7F7F7F;
+    font-family: Causten;
+    font-size: 13.407px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.93px; /* 208.333% */
+    letter-spacing: -0.536px;
 }
