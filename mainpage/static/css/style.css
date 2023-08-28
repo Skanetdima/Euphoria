@@ -33,7 +33,7 @@
 }
 @font-face {
     font-family: 'Causten';
-    src: url('Fonts/Causten-Normal.otf') format('opentype');
+    src: url('Fonts/Causten-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
@@ -782,8 +782,8 @@ nav{
     line-height: 27.93px; /* 208.333% */
     letter-spacing: -0.536px;
 }
-/* EIGHT CONTAINER */
-.eight_container{
+/* EIGHTH CONTAINER */
+.eighth_container{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -795,7 +795,7 @@ nav{
     margin-top: 5%;
     background: #3C4242;
 }
-.eight_container_items{
+.eighth_container_items{
     margin-top: 2%;
     margin-bottom: 2%;
     display: flex;
@@ -804,12 +804,12 @@ nav{
     justify-content: space-around;
     gap: 24.6px;
 }
-.eight_text_container{
+.eighth_text_container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.eight_text_container h4{
+.eighth_text_container h4{
     margin-top: 5%;
     color: #FFF;
     text-align: center;
@@ -819,7 +819,7 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.eight_text_container p{
+.eighth_text_container p{
     color: #FFF;
     text-align: center;
     font-family: Causten;
@@ -828,7 +828,7 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
-.eight_text_container b{
+.eighth_text_container b{
     color: #FBD103;
     font-family: Causten;
     font-size: 22px;
@@ -836,7 +836,7 @@ nav{
     font-weight: 700;
     line-height: normal;
 }
-.eight_container_item{
+.eighth_container_item{
     width: 177.518px;
     height: 85.551px;
     border-radius: 12px;
@@ -846,4 +846,79 @@ nav{
     justify-content: center;
     
 }
-
+/*NINTH CONTAINER*/
+.ninth_container_items{
+    display: flex;
+    align-items: center;
+    max-width: 1241px;
+    justify-content: space-between;
+    gap: 50px;
+}
+.ninth_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ninth_container_header h3{
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.5px; /* 98.529% */
+    letter-spacing: 0.68px;
+}
+.ninth_container_header {
+  display: flex;
+  width: 440px;
+  height: 32px;
+  margin: 3% 67% 3% 0;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+.ninth_container p{
+    color: #2A2F2F;
+    font-family: Causten;
+    font-size: 17.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.93px;
+    letter-spacing: -0.715px;
+}
+.ninth_container h5{
+    color: #7F7F7F;
+    font-family: Causten;
+    font-size: 13.407px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.93px;
+    letter-spacing: -0.536px;
+}
+.ninth_container a{
+    text-decoration: none;
+    color: #3C4242;
+    text-align: center;
+    font-family: Causten;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background: #F6F6F6;
+    line-height: normal;
+}
+.ninth_heart{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+}
+.ninth_container_item{
+    position: relative;
+}
+.ninth_container_item div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
