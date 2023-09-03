@@ -1133,3 +1133,14 @@ footer h4{
 .minus_two_container img{
     margin-right: 1%;
 }
+footer h5{
+    margin-top: 2%;
+    color: #FFF;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1.5%;
+    line-height: 200%; /* 36px */
+}
+
