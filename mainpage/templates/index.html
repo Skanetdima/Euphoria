@@ -493,7 +493,7 @@
                 <img src="{% static 'assets/twitter.svg' %}" alt="">
                 <p>in</p>
             </div>
-            <div>
+            <div id = "StoresContainer">
                 <h3>Download The App</h3>
                 <div class="application_container">
                     <div id="footer_playstore">
@@ -506,9 +506,13 @@
                         <img src="{% static 'assets/appstore.svg' %}" alt="">
                         <p>Available on the<br><b class="bold_footer_p">App Store</b></p>
                     </div>
-
                 </div>        
             </div>
+        </div>
+        <div class="minus_two_container">
+            <h4>Popular Categories</h4>  
+            {% load static %}
+            <img src="{% static 'assets/bottom_arrow.svg' %}" alt="">
         </div>
     </footer>    
 {% endblock%}
