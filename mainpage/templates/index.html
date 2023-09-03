@@ -39,6 +39,8 @@
                 <h2>New Arrival</h2>
             </div>
             <div class="third_container_items">
+                {% load static %}
+                <img class="third_arrow_left" src="{% static 'assets/third_arrow_left.svg' %}" alt="">
                 <div class="third_container_item">
                     {% load static %}
                     <img src="{% static 'assets/third_photographer-white-background.png' %}" alt="">
@@ -59,10 +61,9 @@
                     <img src="{% static 'assets/third_white_bg_guy.png'%}" alt="">
                     <p>Urban Shirts</p>
                 </div>
+                {% load static %}
+                <img class="third_arrow_right" src="{% static 'assets/third_arrow_right.svg'%}" alt="">
             </div>
-            {% load static %}
-            <img class="third_arrow_left" src="{% static 'assets/third_arrow_left.svg' %}" alt="">
-            <img class="third_arrow_right" src="{% static 'assets/third_arrow_right.svg'%}" alt="">
         </div>
         <div class="fourth_container">
             {% load static %}
@@ -452,4 +453,62 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div class="first_footer_container">
+            <div class="first_footer_in_container">
+                <h4>Need Help</h4>
+                <p>Contact Us</p>
+                <p>Track Order</p>
+                <p>Returns & Refunds</p>
+                <p>FAQ's</p>
+                <p>Career</p>
+            </div>
+            <div class="second_fitem_in_container">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>euphoria Blog</p>
+                <p>euphoriastan</p>
+                <p>Collaboration</p>
+                <p>Media</p>
+            </div>
+            <div class="third_fItem_in_container">
+                <h4>More Info</h4>  
+                <p>Term and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Shipping Policy</p>
+                <p>Sitemap</p>
+            </div>
+            <div class="third_fItem_in_container">
+                <h4>Location</h4>
+                <p>support@euphoria.in</p>
+                <p>Eklingpura Chouraha, Ahmedabad Main Road</p>
+                <p>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</p>
+            </div>
+        </div>
+        <div class="second_footer_container">
+            <div class="social_media_container">
+                {% load static %}
+                <img src="{% static 'assets/facebook.svg' %}" alt="">    
+                <img src="{% static 'assets/instagram.svg' %}" alt="">
+                <img src="{% static 'assets/twitter.svg' %}" alt="">
+                <p>in</p>
+            </div>
+            <div>
+                <h3>Download The App</h3>
+                <div class="application_container">
+                    <div id="footer_playstore">
+                        {% load static %}
+                        <img src="{% static 'assets/playstore.svg' %}" alt="">
+                        <p>android app on<br><b class="bold_footer_p">Google Play</b></p>
+                    </div>
+                    <div>
+                        {% load static %}
+                        <img src="{% static 'assets/appstore.svg' %}" alt="">
+                        <p>Available on the<br><b class="bold_footer_p">App Store</b></p>
+                    </div>
+
+                </div>        
+            </div>
+        </div>
+    </footer>    
 {% endblock%}
